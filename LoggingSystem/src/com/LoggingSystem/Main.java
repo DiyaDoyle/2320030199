@@ -7,7 +7,7 @@ public class Main {
 		Logger logger= Logger.getInstance();
 		Logger logger1= Logger.getInstance();
 		System.out.println(logger1==logger);
-		logger.LogInfo("This is an info mrssage");
+		logger.LogInfo("This is an info message");
 		logger.logWarning("This is a warning message");
 		logger.logError("This is an error message");
 		
